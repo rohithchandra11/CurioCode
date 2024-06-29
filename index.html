@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CurioCode Solution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CurioCode Solution</h1>
+        <div id="message"></div>
+        <div id="form-container">
+            <div class="toggle-buttons">
+                <button id="show-register">Register</button>
+                <button id="show-login">Login</button>
+            </div>
+            <form id="registration-form" class="hidden">
+                <h2>Register</h2>
+                <label for="reg-username">Username:</label>
+                <input type="text" id="reg-username" required>
+                <label for="reg-password">Password:</label>
+                <input type="password" id="reg-password" required>
+                <button type="submit">Register</button>
+            </form>
+            <form id="login-form" class="hidden">
+                <h2>Login</h2>
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" required>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
